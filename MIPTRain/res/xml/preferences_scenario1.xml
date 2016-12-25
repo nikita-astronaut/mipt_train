@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+ 	xmlns:android="http://schemas.android.com/apk/res/android">
+	<Preference 
+	    android:title="Электрички" 
+	    android:key="trainnumberdialog"
+	    android:summary="Число отображаемых электричек">
+	</Preference>
+	<Preference 
+	    android:title="Синхронизация" 
+	    android:key="synchtimedialog"
+	    android:summary="Частота автоматической синхронизации расписания">
+	</Preference>
+	<PreferenceScreen
+ 		android:key="stations"
+ 		android:summary="Показывать время на станциях"
+ 		android:title="Станции">
+	<CheckBoxPreference
+ 		android:key="dolg"
+ 		android:title="Долгопрудная">
+	</CheckBoxPreference>
+	<CheckBoxPreference
+ 		android:key="novo"
+ 		android:title="Новодачная">
+	</CheckBoxPreference>
+	<CheckBoxPreference
+ 		android:key="mark"
+ 		android:title="Марк">
+	</CheckBoxPreference>
+	<CheckBoxPreference
+ 		android:key="lian"
+ 		android:title="Лианозово">
+	</CheckBoxPreference>
+	<CheckBoxPreference
+ 		android:key="besk"
+ 		android:title="Бескутниково">
+	</CheckBoxPreference>
+		<CheckBoxPreference
+ 		android:key="degu"
+ 		android:title="Дегунино">
+	</CheckBoxPreference>
+		<CheckBoxPreference
+ 		android:key="okry"
+ 		android:title="Окружная">
+	</CheckBoxPreference>
+	<CheckBoxPreference
+ 		android:key="timi"
+ 		android:title="Тимирязевская">
+	</CheckBoxPreference>
+	<CheckBoxPreference
+ 		android:key="savy"
+ 		android:title="Савёловский вокзал">
+	</CheckBoxPreference>
+</PreferenceScreen>
+</PreferenceScreen>

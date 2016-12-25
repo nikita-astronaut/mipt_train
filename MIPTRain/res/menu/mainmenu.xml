@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >        
+    <item android:id="@+id/action_settings" 
+        android:title="Настройки"
+        android:icon="@drawable/settings"
+        android:showAsAction="never">                  
+    </item>
+    
+        <item 
+          android:id="@+id/menu_refresh"
+          android:icon="@drawable/refresh"
+          android:showAsAction="always|withText"
+          android:title="@string/menu_refresh"
+           />
+           <item
+    		android:icon="@drawable/back"
+    		android:showAsAction="always">
+    		<menu>
+        		<item
+            		android:id="@+id/menuFromTimityazevskaya"
+            		android:title="Тимирязевская"
+            		android:onClick="changeFrom" />
+        		<item
+            		android:id="@+id/menuFromSavyolovskiyVokzal"
+            		android:title="Савёловский вокзал"
+            		android:onClick="changeFrom" />
+    		</menu>
+		</item>
+        
+         <item
+    		android:icon="@drawable/forward"
+    		android:showAsAction="always">
+    		<menu>
+        		<item
+            		android:id="@+id/menuFromNovodachnaya"
+            		android:title="Новодачная"
+            		android:onClick="changeFrom" />
+        		<item
+            		android:id="@+id/menuFromDolgoprudnaya"
+            		android:title="Долгопрудная"
+            		android:onClick="changeFrom" />
+    		</menu>
+		</item>
+		
+
+</menu>
